@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="attendanceModelStoreContainer" CdmEntityContainer="attendanceEntities">
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="attendanceModel.Student">
+        <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ReasonForLeave" ColumnName="ReasonForLeave" />
+          <ScalarProperty Name="LeaveLetterUrl" ColumnName="LeaveLetterUrl" />
+          <ScalarProperty Name="LeaveDate" ColumnName="LeaveDate" />
+          <ScalarProperty Name="NumberOfDays" ColumnName="NumberOfDays" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

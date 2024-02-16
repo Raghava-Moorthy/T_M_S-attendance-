@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="attendanceModelStoreContainer" CdmEntityContainer="attendanceEntities">
+    <EntitySetMapping Name="sample_attendance">
+      <EntityTypeMapping TypeName="attendanceModel.sample_attendance">
+        <MappingFragment StoreEntitySet="sample_attendance">
+          <ScalarProperty Name="Regno" ColumnName="Regno" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Attendance" ColumnName="Attendance" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
